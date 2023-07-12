@@ -1,14 +1,11 @@
-package com.driver.controller;
+package com.driver;
 
 import java.util.List;
 
-import com.driver.exceptions.StudentAlreadyExists;
 import com.driver.exceptions.StudentDoesNotExists;
-import com.driver.exceptions.TeacherAlreadyExists;
-import com.driver.exceptions.TeacherDoesNotExists;
-import com.driver.model.Student;
-import com.driver.model.Teacher;
-import com.driver.service.StudentService;
+import com.driver.Student;
+import com.driver.Teacher;
+import com.driver.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

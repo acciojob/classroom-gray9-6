@@ -1,11 +1,6 @@
-package com.driver.service;
+package com.driver;
 
 
-import com.driver.exceptions.StudentAlreadyExists;
-import com.driver.exceptions.StudentDoesNotExists;
-import com.driver.model.Student;
-import com.driver.model.Teacher;
-import com.driver.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
