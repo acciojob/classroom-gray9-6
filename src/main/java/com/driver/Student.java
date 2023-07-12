@@ -40,3 +40,4 @@ public class Student {
         this.averageScore = averageScore;
     }
 }
+

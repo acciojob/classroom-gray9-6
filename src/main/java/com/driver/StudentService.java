@@ -48,3 +48,4 @@ public class StudentService {
         return studentRepository.deleteAllTeachers();
     }
 }
+

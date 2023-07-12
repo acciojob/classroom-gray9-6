@@ -123,3 +123,4 @@ public class StudentRepository {
         return "All teachers deleted successfully";
     }
 }
+
